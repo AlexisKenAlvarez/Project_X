@@ -108,14 +108,14 @@ a {
 }
 
 .main_content {
-  border: 0.1px solid black;
+  border: 0.1px solid #28282B;
   min-height: 100vh;
   min-width: 100%;
   font-family: 'IBM Plex Sans', sans-serif;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  box-shadow: 0px -15px 30px black;
+  box-shadow: 0px -15px 50px #28282B;
   font-size: 20px;
 
 }
