@@ -27,7 +27,7 @@ html, body {
   scroll-behavior: smooth;
 }
 body {
-  background-color: black;
+  background-color: rgb(27, 27, 27);
 }
 
 
@@ -176,11 +176,14 @@ a {
 
 .bikePhoto {
   width: 37%;
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
   position: absolute;
-  right: 0;
-  top: 100vh;
+  right: 10%;
+  top: 110%;
   float: right;
   z-index: -1;
+  border: 10px solid #28282B;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px black;
 }

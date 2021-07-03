@@ -26,6 +26,6 @@ let firstScroll = gsap.timeline({
     scrub: 1
   }
 })
- 
+
 firstScroll.fromTo(".info", {x: -200, opacity: 0, duration: 1.5}, {x: 200, opacity: 2, duration: 1.5})
   .fromTo(".bikePhoto", {x: 300, opacity: 0, duration: 1.5}, {x: -200, opacity: 2, duration: 1.5}, "-=1.5")
