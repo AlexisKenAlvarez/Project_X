@@ -117,26 +117,37 @@ a {
   background-position: center;
   box-shadow: 0px -15px 25px black;
   font-size: 20px;
+}
 
+.second_content {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0.1px solid black;
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+}
+
+.third_content {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0.1px solid black;
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
 }
 
 .info {
   color: white;
-  margin: 20% 0 0 10%;
+  margin: 0% 0 0 13%;
   font-size: 7vh;
   text-align: left;
   z-index: 1;
-  transition: 0.2s ease;
   width: 40%;
 }
 
-.name {
-  opacity: 0.6;
-  transition: 0.2s ease;
-  z-index: 1;
-  display: block;
-  width: 80%
-}
 
 .name:hover {
   opacity: 1;
@@ -175,15 +186,35 @@ a {
 }
 
 .bikePhoto {
-  width: 37%;
-  height: 80vh;
-  object-fit: cover;
+  width: 35%;
+  height: 90vh;
   position: absolute;
   right: 10%;
   top: 110%;
   float: right;
   z-index: -1;
-  border: 10px solid #28282B;
-  border-radius: 5%;
-  box-shadow: 5px 5px 10px black;
+}
+
+.left_line {
+  position: fixed;
+  width: 4px;
+  background-color: white;
+  left: 10%;
+  height: 0vh;
+  top: 10%;
+}
+
+.live {
+  font-size: 7vh;
+  color: white;
+  margin-left: 13%;
+}
+
+.phLogo {
+  position: absolute;
+  object-fit: contain;
+  width: 50%;
+  height: 90vh;
+  margin: 0 auto;
+  right: 10%;
 }
