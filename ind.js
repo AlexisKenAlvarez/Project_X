@@ -57,7 +57,6 @@ let ph = gsap.timeline({
     trigger: ".second_content",
     start:  "top center",
     end: "top center",
-    markers: true,
     pin: ".phLogo",
     scrub: 1
   }
@@ -68,7 +67,6 @@ let php = gsap.timeline({
     trigger: ".second_content",
     start:  "top center",
     end: "+=470",
-    markers: true,
     pin: ".live",
     scrub: 1
   }
